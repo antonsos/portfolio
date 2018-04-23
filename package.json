@@ -4,7 +4,8 @@
   "description": "my portfolio",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp build"
+    "dev": "gulp build",
+    "prod": "set NODE_ENV=production & gulp build"
   },
   "keywords": [],
   "author": "",

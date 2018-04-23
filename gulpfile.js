@@ -15,7 +15,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 
 
 gulp.task('html', () =>
-  gulp.src('src/index.pug') // пути для всех файлов которые нужно
+  gulp.src('src/index.pug')
     .pipe(pug({
         pretty: true
     }))
@@ -36,15 +36,16 @@ gulp.task('css', () =>
     .pipe(gulp.dest('build/css')) // указать нормальный путь
 );
 
-gulp.task('js', () =>
-  gulp.src('src/js/*.js')
-    .pipe(sourcemaps.init())
+gulp.task("js", () =>
+  gulp
+    .src("src/js/*.js")
+    .pipe(gulpIf(isDevelopment, sourcemaps.init()))
     // .pipe(babel({
     //         presets: ['env']
     //     }))
-    .pipe(concat('app.min.js'))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('build/js'))
+    .pipe(concat("app.min.js"))
+    .pipe(gulpIf(isDevelopment, sourcemaps.write()))
+    .pipe(gulp.dest("build/js"))
 );
 
 gulp.task('clean', () =>

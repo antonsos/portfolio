@@ -1,0 +1,30 @@
+.services-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+@import "services-bg-video/services-bg-video";
+
+.services-page__text {
+  width: 750px;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 28px;
+  font-weight: 700;
+  // letter-spacing: 2px;
+  // word-spacing: 68px;
+}
+
+.services-page__text dl {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.services-page__heading-future {
+  text-align: center;
+}

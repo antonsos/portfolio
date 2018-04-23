@@ -1,0 +1,8 @@
+section.social
+  ul.social__list
+    each layer in ["vk", "fb", "gh"]
+      li.social__item
+        a(href="#" class="social__link") 
+          spam.visually-hidden #{layer}
+          svg(class=`social__${layer}` width="48" height="48")
+            use(xlink:href=`#icon-${layer}`)

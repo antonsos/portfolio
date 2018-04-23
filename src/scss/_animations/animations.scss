@@ -1,0 +1,66 @@
+@keyframes muveSpring {
+  0% {
+    transform: translateY(-200px);
+    transform: translateZ();
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes muveLeft {
+  0% {
+    transform: translateX(-200px);
+    transform: translateZ();
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes muveButtom {
+  0% {
+    transform: translateY(200px);
+    transform: translateZ();
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+    transform: translateZ();
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes button-down {
+  0% {
+    transform: translateY(0);
+    transform: translateZ();
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}

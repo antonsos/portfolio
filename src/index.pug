@@ -1,0 +1,16 @@
+extends pug/_layout/layout
+block home-page
+  include components/home-page/navigation/navigation
+  include components/home-page/header/header
+
+block services
+  include components/services/services
+
+
+block svg
+  include components/home-page/social/social-svg
+
+block script
+  script(src="js/app.min.js")
+  
+  

@@ -1,0 +1,75 @@
+.nav-button {
+  position: absolute;
+  left: 50%;
+  bottom: -85%;
+  width: 44px;
+  height: 44px;
+  margin-left: -22px;
+  border-radius: 50%;
+  background-color: $gainsboro;
+  transition: .2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba($dark, .2);
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $gainsboro;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 1;
+    transition: .3s;
+  }
+
+  &:hover::before {
+    transform: scaleX(2) scaleY(1.5);
+    opacity: 0;
+
+  }
+}
+
+.button-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.button-down {
+  position: relative;
+  display: block;
+  border: none;
+  width: 100%;
+  height: 150%;
+  margin-top: -20px;
+
+  animation: button-down 1.5s infinite;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 32px;
+    content: "";
+    width: 16px;
+    height: 3px;
+    background-color: $ultramarine;
+  }
+
+  &::before {
+    left: 8px;
+    transform: rotate(35deg);
+  }
+
+  &::after {
+    right: 8px;
+    transform: rotate(-35deg);
+  }
+}

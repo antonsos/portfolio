@@ -1,0 +1,48 @@
+.social {
+  position: absolute;
+  top: 2%;
+  left: 5px;
+  height: 48px;
+}
+
+.social__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social__vk {
+  fill: $darkSeaGreen;
+  &:hover {
+    fill: $gainsboro;
+  }
+  &:active {
+    fill: rgba($davysGrey, 0.3);
+  }
+}
+
+.social__fb {
+  fill: $darkSeaGreen;
+  &:hover {
+    fill: $gainsboro;
+  }
+  &:active {
+    fill: rgba($davysGrey, 0.3);
+  }
+}
+
+.social__gh {
+  fill: $darkSeaGreen;
+  &:hover {
+    fill: $gainsboro;
+  }
+  &:active {
+    fill: rgba($davysGrey, 0.3);
+  }
+}

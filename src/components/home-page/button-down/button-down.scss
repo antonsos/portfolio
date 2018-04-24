@@ -1,7 +1,7 @@
 .nav-button {
   position: absolute;
   left: 50%;
-  bottom: -85%;
+  bottom: 15px;
   width: 44px;
   height: 44px;
   margin-left: -22px;
@@ -11,7 +11,12 @@
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba($dark, .2);
+    box-shadow: 0 4px 8px rgba($dark, .4);
+  }
+
+  &:active {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba($dark, .4);
   }
 
   &::before {
@@ -34,13 +39,6 @@
     opacity: 0;
 
   }
-}
-
-.button-wrapper {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
 .button-down {

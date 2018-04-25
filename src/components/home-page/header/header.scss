@@ -1,6 +1,6 @@
 .header-main {
   position: relative;
-  width: 100%;
+  min-width: 100%;
   height: 100vh;
   background-image: 
                     url(../img/home-page/bg-bottom-home-page.svg),
@@ -20,9 +20,8 @@
     margin-left: -24px;
     width: 48px;
     height: 48px;
-    &:hover {
-      animation: rotating 1s linear infinite;
-    }
+    animation: shake 1s 1s;
+
     &:active {
       box-shadow: inset 0 0 4px #002fff;
       transition: .2s linear;

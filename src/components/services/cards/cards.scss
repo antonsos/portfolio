@@ -10,22 +10,36 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  background-image: linear-gradient(45deg, rgba($ultramarine, .9), rgba($darkSeaGreen, .9));
-  transform: skewX(-15deg);
-  border-radius: 10px;
-  // border: 2px solid $ultramarine;
+  background-image: linear-gradient(-135deg, rgba($ultramarine, .9), rgba($darkSeaGreen, .9));
+  transform: skewX(-8deg);
   overflow: hidden;
-  box-shadow: 10px 10px 20px rgba($dark, .6);
+  box-shadow: 0 10px 30px rgba($ultramarine, .5);
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-10px) scale(1.3);
+  }
+
+  &:hover .cards__heading,
+  &:hover .cards__text {
+    padding-left: 0;
+    transform: skewX(0);
+  }
+
+  &:hover .coding::after {
+    margin-left: 0;
+  }
 }
 
 .cards__heading {
-  padding-left: 30px;
+  padding-left: 20px;
   color: $white;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
-  transform: skewX(15deg);
+  transform: skewX(8deg);
+  transition: .3s;
 }
 
 .cards__item:first-child .cards__heading,
@@ -44,7 +58,7 @@
     background-image: url(../img/services-page/cards-svg/imposition.svg);
     background-repeat: no-repeat;
     background-position: center;
-    // transform: skewY(15deg) skewX(-15deg);
+    transition: .3s;
   }
 }
 
@@ -55,11 +69,11 @@
     width: 100%;
     height: 100px;
     margin-top: 20px;
-    margin-left: -20px;
+    margin-left: -15px;
     background-image: url(../img/services-page/cards-svg/coding.svg);
     background-repeat: no-repeat;
     background-position: center;
-    // transform: skewY(15deg) skewX(-15deg);
+    transition: .3s;
   }
 }
 
@@ -74,18 +88,19 @@
     background-image: url(../img/services-page/cards-svg/analytics.svg);
     background-repeat: no-repeat;
     background-position: center;
-    // transform: skewY(15deg) skewX(-15deg);
+    transition: .3s;
   }
 }
 
 .cards__text {
   padding-left: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: $white;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
   text-shadow: 0 2px 10px rgba($dark, .9);
-  transform: skewX(15deg);
+  transform: skewX(8deg);
+  transition: .3s;
 }

@@ -1,5 +1,6 @@
 .nav-button {
   position: absolute;
+  display: block;
   left: 50%;
   bottom: 15px;
   width: 44px;
@@ -8,6 +9,7 @@
   border-radius: 50%;
   background-color: $gainsboro;
   transition: .2s;
+  animation: flipInX 1.2s 1s;
 
   &:hover {
     transform: translateY(-4px);

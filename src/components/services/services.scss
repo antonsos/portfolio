@@ -1,29 +1,38 @@
 .services-page {
   position: relative;
-  width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  overflow: hidden;
   background-image: url(../img/services-page/services-page-bg-top.svg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100%;
+  background-size: 100% 90%;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    content: "";
+    height: 20px;
+    width: 100%;
+    background-color: rgba($ultramarine, .8);
+  }
 
   @import "services-bg-video/services-bg-video";
 
   &__text {
     width: 750px;
     margin: auto;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 60px;
+    margin-bottom: 50px;
   }
 
   &__utterance {
     position: relative;
     padding: 0;
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   &__author {

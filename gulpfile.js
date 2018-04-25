@@ -17,7 +17,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 gulp.task('html', () =>
   gulp.src('src/index.pug')
     .pipe(pug({
-        pretty: true
+        // pretty: true
     }))
     .pipe(gulp.dest('build'))
 );

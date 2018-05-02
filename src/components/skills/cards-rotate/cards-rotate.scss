@@ -8,8 +8,8 @@
 }
 
 .cards-rotate__item {
-  width: 48%;
-  padding: 0;
+  width: 49.6%;
+  padding: 0 5px;
   margin: 0;
   margin-bottom: 10px;
   list-style: none;
@@ -39,24 +39,13 @@
 }
 
 .imge-box {
-  width: 60px;
+  display: block;
+  width: 80px;
+  height: 85px;
   border-radius: 15px;
   box-shadow: 0 10px 10px rgba($white, .6);
 }
 
 .imge-box--width-big {
   width: 140px;
-}
-
-// .imge-box img {
-//   box-shadow: 0 5px 5px rgba($white, .9);
-// }
-
-.cards-rotate__text {
-  color: $white;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-align: center;
-  text-shadow: 0 2px 10px rgba($dark, .9);
 }

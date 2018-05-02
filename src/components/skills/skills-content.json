@@ -1,0 +1,92 @@
+{
+  "skills": {
+    "Современные возможностеи языков на стороне клиента": {
+      "html5": {
+        "link": "https://ru.wikipedia.org/wiki/HTML5",
+        "name": "img/skills/sprite.svg#html5",
+        "size": "0 5 100 110"
+      },
+      "css3": {
+        "link": "https://ru.wikipedia.org/wiki/CSS",
+        "name": "img/skills/sprite.svg#css3",
+        "size": "0 5 100 110"
+      },
+      "js": {
+        "link": "https://ru.wikipedia.org/wiki/JavaScript",
+        "name": "img/skills/sprite.svg#javascript",
+        "size": "0 5 100 110"
+      }
+    },
+    "Современные технологии на стороне сервера": {
+      "nodejs": {
+        "link": "https://ru.wikipedia.org/wiki/Node.js",
+        "name": "img/skills/sprite.svg#nodejs",
+        "size": "0 0 100 100"
+      },
+      "php": {
+        "link": "https://ru.wikipedia.org/wiki/PHP",
+        "name": "img/skills/sprite.svg#php",
+        "size": "0 0 100 100"
+      },
+      "mongodb": {
+        "link": "https://ru.wikipedia.org/wiki/MongoDB",
+        "name": "img/skills/sprite.svg#mongodb",
+        "size": "0 0 100 100"
+      }
+    },
+    "Современные технологии для оптемизации": {
+      "gulp": {
+        "link": "https://ru.wikipedia.org/wiki/Gulp",
+        "name": "img/skills/sprite.svg#gulp",
+        "size": "-28 0 100 100"
+      },
+      "npm": {
+        "link": "https://ru.wikipedia.org/wiki/NPM",
+        "name": "img/skills/sprite.svg#npm",
+        "size": "0 0 100 100"
+      },
+      "bem": {
+        "link": "https://ru.wikipedia.org/wiki/%D0%91%D0%AD%D0%9C",
+        "name": "img/skills/sprite.svg#bem",
+        "size": "0 0 100 100"
+      },
+      "sass": {
+        "link": "https://ru.wikipedia.org/wiki/Sass",
+        "name": "img/skills/sprite.svg#sass",
+        "size": "0 0 100 100"
+      },
+      "pug": {
+        "link": "https://github.com/pugjs/pug",
+        "name": "img/skills/sprite.svg#pug",
+        "size": "0 0 100 100"
+      },
+      "github": {
+        "link": "https://ru.wikipedia.org/wiki/GitHub",
+        "name": "img/skills/sprite.svg#github",
+        "size": "0 0 100 100"
+      }
+    },
+    "Современные библиотеки для больших возможностей": {
+      "bootstrap": {
+        "link": "https://ru.wikipedia.org/wiki/Bootstrap_(%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)",
+        "name": "img/skills/sprite.svg#bootstrap",
+        "size": "0 -5 100 100"
+      },
+      "jQuery": {
+        "link": "https://ru.wikipedia.org/wiki/JQuery",
+        "name": "img/skills/sprite.svg#jQuery",
+        "size": "0 -10 100 100"
+      },
+      "angular": {
+        "link": "https://ru.wikipedia.org/wiki/AngularJS",
+        "name": "img/skills/sprite.svg#angular",
+        "size": "0 0 100 100"
+      },
+      "vue": {
+        "link": "https://ru.wikipedia.org/wiki/Vue.js",
+        "name": "img/skills/sprite.svg#vue",
+        "size": "0 0 100 100"
+      }
+    }
+  }
+}

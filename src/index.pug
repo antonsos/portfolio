@@ -1,19 +1,23 @@
 extends pug/_layout/layout
 block home-page
   include components/home-page/navigation/navigation
-  include components/home-page/header/header
+  .scroll-page(name="page1")
+    include components/home-page/header/header
 
 block services
   include components/services/services
 
 block skills
-  include components/skills/skills
+  .scroll-page(name="page3")
+    include components/skills/skills
 
 
 block svg
   include components/home-page/social/social-svg
 
 block script
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
   script(src="js/app.min.js")
+  script(src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.findIndex,Array.prototype.includes,Array.prototype.forEach,CustomEvent")
   
   

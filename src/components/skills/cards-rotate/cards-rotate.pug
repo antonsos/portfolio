@@ -5,6 +5,6 @@
         h3.cards-rotate__heading #{index}
         .imge-wrapper
           each nameTeh in boxTeh
-            a(href=`${nameTeh.link}` target="_blank").imge-box.parallax__item
-              svg(viewBox=`${nameTeh.size}`)
+            a(href=`${nameTeh.link}` target="_blank").imge-box
+              svg(viewBox=`${nameTeh.size}`).parallax__item
                 use(xlink:href=`${nameTeh.name}`)

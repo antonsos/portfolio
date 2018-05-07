@@ -6,6 +6,6 @@
   .navigation__background &nbsp;
   nav.navigation__nav
     ul.navigation__list
-      each layer in ["Главная", "Услуги", "Навыки", "Работы", "Отзывы", "Пообщаться"]
+      each layer, index in ["Главная", "Услуги", "Навыки", "Работы", "Отзывы", "Пообщаться"]
         li.navigation__item
-          a.navigation__link(href="#") #{layer}
+          a.navigation__link(href=`#page${index + 1}`) #{layer}

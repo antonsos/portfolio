@@ -1,12 +1,13 @@
-section.services-page
+section.services-page.scroll-page(name="page2")
   h2.visually-hidden Услуги
   include services-bg-video/services-bg-video
-  .continear
-    .services-page__text#services
-      dl.services-page__utterance
-        dt.services-page__author Билл Гейтс
-        dd.services-page__quote
-          |&ldquo;В будущем на рынке останется два вида компаний: <br>
-          |&nbsp;те, кто в Интернете и те, кто вышел из бизнеса&bdquo;
-      h2.services-page__heading-future Создаю будущее для вас
-    include cards/cards
+  .services-page__wrapper
+    .continear
+      .services-page__text
+        dl.services-page__utterance
+          dt.services-page__author Билл Гейтс
+          dd.services-page__quote
+            |&ldquo;В будущем на рынке останется два вида компаний: <br>
+            |&nbsp;те, кто в Интернете и те, кто вышел из бизнеса&bdquo;
+        h2.services-page__heading-future Создаю будущее для вас
+      include cards/cards

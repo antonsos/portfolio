@@ -13,8 +13,8 @@
   margin: 0;
   margin-bottom: 10px;
   list-style: none;
-  background-color: rgba($ultramarine, .5);
   overflow: hidden;
+  background-color: rgba($ultramarine, .5);
 }
 
 .cards-rotate__heading {
@@ -34,18 +34,16 @@
   padding-bottom: 30px;
 }
 
-.imge-box--vertical-middle {
-  align-self: center;
-}
-
 .imge-box {
-  display: block;
+  position: relative;
+  display: inline-block;
   width: 80px;
   height: 85px;
   border-radius: 15px;
   box-shadow: 0 10px 10px rgba($white, .6);
 }
 
-.imge-box--width-big {
-  width: 140px;
+.imge-box svg {
+  position: absolute;
+  z-index: -1;
 }

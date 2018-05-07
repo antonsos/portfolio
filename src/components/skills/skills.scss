@@ -1,7 +1,9 @@
 .skills {
+  position: absolute;
   min-width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(135deg, $darkSeaGreen, $gainsboro);
+  z-index: 9999;
 
   &__title {
     position: relative;

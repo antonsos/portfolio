@@ -21,5 +21,5 @@
     });
   }
 
-  parallaxContainer.addEventListener('mousemove', moveLayers);
+  parallaxContainer.addEventListener('mousemove', moveLayers, false);
 })();

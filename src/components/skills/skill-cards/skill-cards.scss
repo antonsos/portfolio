@@ -1,4 +1,4 @@
-.cards-rotate__list {
+.skill-cards__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -7,7 +7,7 @@
   margin-top: 3%;
 }
 
-.cards-rotate__item {
+.skill-cards__item {
   width: 49.6%;
   padding: 0 5px;
   margin: 0;
@@ -17,7 +17,7 @@
   background-color: rgba($ultramarine, .5);
 }
 
-.cards-rotate__heading {
+.skill-cards__heading {
   color: $white;
   font-size: 18px;
   font-weight: 700;

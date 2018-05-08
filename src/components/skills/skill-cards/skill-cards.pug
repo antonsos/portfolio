@@ -1,8 +1,8 @@
-.cards-rotate
-  ul.cards-rotate__list
+.skill-cards
+  ul.skill-cards__list
     each boxTeh, index in skills
-      li.cards-rotate__item
-        h3.cards-rotate__heading #{index}
+      li.skill-cards__item
+        h3.skill-cards__heading #{index}
         .imge-wrapper
           each nameTeh in boxTeh
             a(href=`${nameTeh.link}` target="_blank").imge-box
